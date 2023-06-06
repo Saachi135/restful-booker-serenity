@@ -1,0 +1,13 @@
+com\restful\booker\serenity\restfullinfo\ReadSteps.class
+com\restful\booker\serenity\restfullinfo\DeleteSteps.class
+com\restful\booker\serenity\model\PatchBookingPojo.class
+com\restful\booker\serenity\model\AuthorisationPojo.class
+com\restful\booker\serenity\utils\TestUtils.class
+com\restful\booker\serenity\model\UpdateBookingPojo$BookingDates.class
+com\restful\booker\serenity\model\UpdateBookingPojo.class
+com\restful\booker\serenity\restfullinfo\CreateSteps.class
+com\restful\booker\serenity\constants\EndPoints.class
+com\restful\booker\serenity\restfullinfo\UpdateSteps.class
+com\restful\booker\serenity\model\BookingPojo.class
+com\restful\booker\serenity\model\BookingPojo$BookingDates.class
+com\restful\booker\serenity\utils\PropertyReader.class

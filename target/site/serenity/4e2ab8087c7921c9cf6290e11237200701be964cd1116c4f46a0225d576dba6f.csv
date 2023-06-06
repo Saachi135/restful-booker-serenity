@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CRUD test","Creating token.","ERROR","2023-06-05T01:53:26.614+01:00[Europe/London]","0.0","12.57"
+"CRUD test","Getting Single ID.","ERROR","2023-06-05T01:54:00.449+01:00[Europe/London]","0.0","0.5"
+"CRUD test","Deleting the ID and verifying deletion.","ERROR","2023-06-05T01:54:01.982+01:00[Europe/London]","0.0","0.09"

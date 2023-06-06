@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CRUD test","Creating booking and verifying booking created.","FAILURE","2023-06-05T01:53:39.940+01:00[Europe/London]","0.0","18.1"
+"CRUD test","Getting All IDs.","FAILURE","2023-06-05T01:53:58.056+01:00[Europe/London]","0.0","2.39"
+"CRUD test","Updating Single ID.","FAILURE","2023-06-05T01:54:00.958+01:00[Europe/London]","0.0","1.02"

@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.restful.booker.serenity.crudtest.CRUDTest" time="34.756" tests="6" errors="3" skipped="0" failures="3">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gp_14\IdeaProjects\restful-booker-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gp_14\IdeaProjects\restful-booker-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gp_14\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Apache\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Users\gp_14\AppData\Local\Microsoft\WindowsApps;C:\Users\gp_14\AppData\Local\Programs\Git\cmd;C:\Users\gp_14\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\gp_14"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="gp_14"/>
+    <property name="java.class.path" value="C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jre\lib\resources.jar;C:\Java\jre\lib\rt.jar;C:\Java\jre\lib\sunrsasign.jar;C:\Java\jre\lib\jsse.jar;C:\Java\jre\lib\jce.jar;C:\Java\jre\lib\charsets.jar;C:\Java\jre\lib\jfr.jar;C:\Java\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\IntelliJ\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="12.712">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.restful.booker.serenity.crudtest.CRUDTest.test001(CRUDTest.java:43)
+</error>
+    <system-err><![CDATA[1010 [main] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+2814 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: CRUD test
+3151 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001
+-------------------------------------------------------------------
+3151 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+]]></system-err>
+  </testcase>
+  <testcase name="test002" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="18.09">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.restful.booker.serenity.crudtest.CRUDTest.test002(CRUDTest.java:51)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "firstName": "Gauran443",
+    "lastName": "Pancha",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-06",
+        "checkout": "2024-01-20"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 500 Internal Server Error
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Etag: W/"15-/6VXivhc2MKdLfIkLcUE47K6aH0"
+Date: Mon, 05 Jun 2023 00:53:57 GMT
+Via: 1.1 vegur
+
+Internal Server Error
+HTTP/1.1 500 Internal Server Error
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Etag: W/"15-/6VXivhc2MKdLfIkLcUE47K6aH0"
+Date: Mon, 05 Jun 2023 00:53:57 GMT
+Via: 1.1 vegur
+
+Internal Server Error
+]]></system-out>
+    <system-err><![CDATA[15603 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Creating token.
+---------------------------------------------------------------------
+16233 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Creating token admin :admin, password :password123
+16235 [main] ERROR net.serenitybdd.core.Serenity - restful-booker.herokuapp.com
+16250 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test002
+-------------------------------------------------------------------
+16251 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+]]></system-err>
+  </testcase>
+  <testcase name="test003" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="2.373">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.restful.booker.serenity.crudtest.CRUDTest.test003(CRUDTest.java:66)
+</failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 11680
+Etag: W/"2da0-g+9tB55qKI4CAULnqhaY/mKrNho"
+Date: Mon, 05 Jun 2023 00:53:58 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "bookingid": 746
+    },
+    {
+        "bookingid": 201
+    },
+    {
+        "bookingid": 317
+    },
+    {
+        "bookingid": 207
+    },
+    {
+        "bookingid": 85
+    },
+    {
+        "bookingid": 212
+    },
+    {
+        "bookingid": 858
+    },
+    {
+        "bookingid": 756
+    },
+    {
+        "bookingid": 248
+    },
+    {
+        "bookingid": 601
+    },
+    {
+        "bookingid": 673
+    },
+    {
+        "bookingid": 484
+    },
+    {
+        "bookingid": 192
+    },
+    {
+        "bookingid": 250
+    },
+    {
+        "bookingid": 758
+    },
+    {
+        "bookingid": 43
+    },
+    {
+        "bookingid": 473
+    },
+    {
+        "bookingid": 278
+    },
+    {
+        "bookingid": 371
+    },
+    {
+        "bookingid": 123
+    },
+    {
+        "bookingid": 596
+    },
+    {
+        "bookingid": 768
+    },
+    {
+        "bookingid": 510
+    },
+    {
+        "bookingid": 472
+    },
+    {
+        "bookingid": 749
+    },
+    {
+        "bookingid": 820
+    },
+    {
+        "bookingid": 105
+    },
+    {
+        "bookingid": 580
+    },
+    {
+        "bookingid": 28
+    },
+    {
+        "bookingid": 96
+    },
+    {
+        "bookingid": 544
+    },
+    {
+        "bookingid": 698
+    },
+    {
+        "bookingid": 590
+    },
+    {
+        "bookingid": 27
+    },
+    {
+        "bookingid": 678
+    },
+    {
+        "bookingid": 806
+    },
+    {
+        "bookingid": 808
+    },
+    {
+        "bookingid": 163
+    },
+    {
+        "bookingid": 139
+    },
+    {
+        "bookingid": 505
+    },
+    {
+        "bookingid": 122
+    },
+    {
+        "bookingid": 443
+    },
+    {
+        "bookingid": 229
+    },
+    {
+        "bookingid": 460
+    },
+    {
+        "bookingid": 258
+    },
+    {
+        "bookingid": 529
+    },
+    {
+        "bookingid": 574
+    },
+    {
+        "bookingid": 331
+    },
+    {
+        "bookingid": 537
+    },
+    {
+        "bookingid": 500
+    },
+    {
+        "bookingid": 860
+    },
+    {
+        "bookingid": 397
+    },
+    {
+        "bookingid": 213
+    },
+    {
+        "bookingid": 682
+    },
+    {
+        "bookingid": 931
+    },
+    {
+        "bookingid": 598
+    },
+    {
+        "bookingid": 905
+    },
+    {
+        "bookingid": 674
+    },
+    {
+        "bookingid": 425
+    },
+    {
+        "bookingid": 805
+    },
+    {
+        "bookingid": 672
+    },
+    {
+        "bookingid": 687
+    },
+    {
+        "bookingid": 409
+    },
+    {
+        "bookingid": 349
+    },
+    {
+        "bookingid": 303
+    },
+    {
+        "bookingid": 804
+    },
+    {
+        "bookingid": 549
+    },
+    {
+        "bookingid": 648
+    },
+    {
+        "bookingid": 468
+    },
+    {
+        "bookingid": 60
+    },
+    {
+        "bookingid": 384
+    },
+    {
+        "bookingid": 333
+    },
+    {
+        "bookingid": 51
+    },
+    {
+        "bookingid": 639
+    },
+    {
+        "bookingid": 512
+    },
+    {
+        "bookingid": 638
+    },
+    {
+        "bookingid": 747
+    },
+    {
+        "bookingid": 418
+    },
+    {
+        "bookingid": 110
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 723
+    },
+    {
+        "bookingid": 589
+    },
+    {
+        "bookingid": 200
+    },
+    {
+        "bookingid": 482
+    },
+    {
+        "bookingid": 646
+    },
+    {
+        "bookingid": 796
+    },
+    {
+        "bookingid": 121
+    },
+    {
+        "bookingid": 95
+    },
+    {
+        "bookingid": 419
+    },
+    {
+        "bookingid": 387
+    },
+    {
+        "bookingid": 689
+    },
+    {
+        "bookingid": 466
+    },
+    {
+        "bookingid": 211
+    },
+    {
+        "bookingid": 888
+    },
+    {
+        "bookingid": 84
+    },
+    {
+        "bookingid": 624
+    },
+    {
+        "bookingid": 826
+    },
+    {
+        "bookingid": 188
+    },
+    {
+        "bookingid": 94
+    },
+    {
+        "bookingid": 268
+    },
+    {
+        "bookingid": 140
+    },
+    {
+        "bookingid": 913
+    },
+    {
+        "bookingid": 40
+    },
+    {
+        "bookingid": 833
+    },
+    {
+        "bookingid": 908
+    },
+    {
+        "bookingid": 481
+    },
+    {
+        "bookingid": 279
+    },
+    {
+        "bookingid": 771
+    },
+    {
+        "bookingid": 508
+    },
+    {
+        "bookingid": 489
+    },
+    {
+        "bookingid": 803
+    },
+    {
+        "bookingid": 426
+    },
+    {
+        "bookingid": 88
+    },
+    {
+        "bookingid": 681
+    },
+    {
+        "bookingid": 274
+    },
+    {
+        "bookingid": 605
+    },
+    {
+        "bookingid": 93
+    },
+    {
+        "bookingid": 895
+    },
+    {
+        "bookingid": 287
+    },
+    {
+        "bookingid": 626
+    },
+    {
+        "bookingid": 457
+    },
+    {
+        "bookingid": 173
+    },
+    {
+        "bookingid": 880
+    },
+    {
+        "bookingid": 221
+    },
+    {
+        "bookingid": 206
+    },
+    {
+        "bookingid": 329
+    },
+    {
+        "bookingid": 739
+    },
+    {
+        "bookingid": 841
+    },
+    {
+        "bookingid": 483
+    },
+    {
+        "bookingid": 373
+    },
+    {
+        "bookingid": 293
+    },
+    {
+        "bookingid": 231
+    },
+    {
+        "bookingid": 182
+    },
+    {
+        "bookingid": 440
+    },
+    {
+        "bookingid": 345
+    },
+    {
+        "bookingid": 817
+    },
+    {
+        "bookingid": 478
+    },
+    {
+        "bookingid": 54
+    },
+    {
+        "bookingid": 108
+    },
+    {
+        "bookingid": 111
+    },
+    {
+        "bookingid": 151
+    },
+    {
+        "bookingid": 289
+    },
+    {
+        "bookingid": 376
+    },
+    {
+        "bookingid": 861
+    },
+    {
+        "bookingid": 435
+    },
+    {
+        "bookingid": 573
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 464
+    },
+    {
+        "bookingid": 906
+    },
+    {
+        "bookingid": 748
+    },
+    {
+        "bookingid": 470
+    },
+    {
+        "bookingid": 898
+    },
+    {
+        "bookingid": 728
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 834
+    },
+    {
+        "bookingid": 631
+    },
+    {
+        "bookingid": 534
+    },
+    {
+        "bookingid": 29
+    },
+    {
+        "bookingid": 517
+    },
+    {
+        "bookingid": 815
+    },
+    {
+        "bookingid": 707
+    },
+    {
+        "bookingid": 179
+    },
+    {
+        "bookingid": 633
+    },
+    {
+        "bookingid": 700
+    },
+    {
+        "bookingid": 434
+    },
+    {
+        "bookingid": 72
+    },
+    {
+        "bookingid": 928
+    },
+    {
+        "bookingid": 685
+    },
+    {
+        "bookingid": 230
+    },
+    {
+        "bookingid": 145
+    },
+    {
+        "bookingid": 586
+    },
+    {
+        "bookingid": 567
+    },
+    {
+        "bookingid": 32
+    },
+    {
+        "bookingid": 873
+    },
+    {
+        "bookingid": 792
+    },
+    {
+        "bookingid": 193
+    },
+    {
+        "bookingid": 251
+    },
+    {
+        "bookingid": 869
+    },
+    {
+        "bookingid": 319
+    },
+    {
+        "bookingid": 430
+    },
+    {
+        "bookingid": 154
+    },
+    {
+        "bookingid": 113
+    },
+    {
+        "bookingid": 642
+    },
+    {
+        "bookingid": 185
+    },
+    {
+        "bookingid": 380
+    },
+    {
+        "bookingid": 900
+    },
+    {
+        "bookingid": 69
+    },
+    {
+        "bookingid": 436
+    },
+    {
+        "bookingid": 322
+    },
+    {
+        "bookingid": 202
+    },
+    {
+        "bookingid": 929
+    },
+    {
+        "bookingid": 545
+    },
+    {
+        "bookingid": 843
+    },
+    {
+        "bookingid": 55
+    },
+    {
+        "bookingid": 492
+    },
+    {
+        "bookingid": 403
+    },
+    {
+        "bookingid": 604
+    },
+    {
+        "bookingid": 595
+    },
+    {
+        "bookingid": 463
+    },
+    {
+        "bookingid": 538
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 767
+    },
+    {
+        "bookingid": 365
+    },
+    {
+        "bookingid": 271
+    },
+    {
+        "bookingid": 920
+    },
+    {
+        "bookingid": 511
+    },
+    {
+        "bookingid": 547
+    },
+    {
+        "bookingid": 153
+    },
+    {
+        "bookingid": 565
+    },
+    {
+        "bookingid": 640
+    },
+    {
+        "bookingid": 357
+    },
+    {
+        "bookingid": 176
+    },
+    {
+        "bookingid": 725
+    },
+    {
+        "bookingid": 86
+    },
+    {
+        "bookingid": 366
+    },
+    {
+        "bookingid": 243
+    },
+    {
+        "bookingid": 896
+    },
+    {
+        "bookingid": 718
+    },
+    {
+        "bookingid": 539
+    },
+    {
+        "bookingid": 690
+    },
+    {
+        "bookingid": 462
+    },
+    {
+        "bookingid": 219
+    },
+    {
+        "bookingid": 788
+    },
+    {
+        "bookingid": 372
+    },
+    {
+        "bookingid": 499
+    },
+    {
+        "bookingid": 130
+    },
+    {
+        "bookingid": 87
+    },
+    {
+        "bookingid": 260
+    },
+    {
+        "bookingid": 809
+    },
+    {
+        "bookingid": 270
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 448
+    },
+    {
+        "bookingid": 909
+    },
+    {
+        "bookingid": 125
+    },
+    {
+        "bookingid": 743
+    },
+    {
+        "bookingid": 829
+    },
+    {
+        "bookingid": 49
+    },
+    {
+        "bookingid": 306
+    },
+    {
+        "bookingid": 383
+    },
+    {
+        "bookingid": 442
+    },
+    {
+        "bookingid": 52
+    },
+    {
+        "bookingid": 504
+    },
+    {
+        "bookingid": 391
+    },
+    {
+        "bookingid": 521
+    },
+    {
+        "bookingid": 782
+    },
+    {
+        "bookingid": 172
+    },
+    {
+        "bookingid": 224
+    },
+    {
+        "bookingid": 394
+    },
+    {
+        "bookingid": 921
+    },
+    {
+        "bookingid": 308
+    },
+    {
+        "bookingid": 324
+    },
+    {
+        "bookingid": 45
+    },
+    {
+        "bookingid": 779
+    },
+    {
+        "bookingid": 889
+    },
+    {
+        "bookingid": 50
+    },
+    {
+        "bookingid": 35
+    },
+    {
+        "bookingid": 456
+    },
+    {
+        "bookingid": 275
+    },
+    {
+        "bookingid": 531
+    },
+    {
+        "bookingid": 444
+    },
+    {
+        "bookingid": 451
+    },
+    {
+        "bookingid": 190
+    },
+    {
+        "bookingid": 127
+    },
+    {
+        "bookingid": 824
+    },
+    {
+        "bookingid": 320
+    },
+    {
+        "bookingid": 774
+    },
+    {
+        "bookingid": 203
+    },
+    {
+        "bookingid": 160
+    },
+    {
+        "bookingid": 53
+    },
+    {
+        "bookingid": 660
+    },
+    {
+        "bookingid": 241
+    },
+    {
+        "bookingid": 360
+    },
+    {
+        "bookingid": 611
+    },
+    {
+        "bookingid": 343
+    },
+    {
+        "bookingid": 552
+    },
+    {
+        "bookingid": 717
+    },
+    {
+        "bookingid": 619
+    },
+    {
+        "bookingid": 850
+    },
+    {
+        "bookingid": 367
+    },
+    {
+        "bookingid": 608
+    },
+    {
+        "bookingid": 67
+    },
+    {
+        "bookingid": 42
+    },
+    {
+        "bookingid": 904
+    },
+    {
+        "bookingid": 347
+    },
+    {
+        "bookingid": 296
+    },
+    {
+        "bookingid": 252
+    },
+    {
+        "bookingid": 477
+    },
+    {
+        "bookingid": 41
+    },
+    {
+        "bookingid": 68
+    },
+    {
+        "bookingid": 666
+    },
+    {
+        "bookingid": 393
+    },
+    {
+        "bookingid": 115
+    },
+    {
+        "bookingid": 449
+    },
+    {
+        "bookingid": 497
+    },
+    {
+        "bookingid": 759
+    },
+    {
+        "bookingid": 781
+    },
+    {
+        "bookingid": 656
+    },
+    {
+        "bookingid": 663
+    },
+    {
+        "bookingid": 645
+    },
+    {
+        "bookingid": 615
+    },
+    {
+        "bookingid": 636
+    },
+    {
+        "bookingid": 186
+    },
+    {
+        "bookingid": 375
+    },
+    {
+        "bookingid": 533
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 407
+    },
+    {
+        "bookingid": 528
+    },
+    {
+        "bookingid": 406
+    },
+    {
+        "bookingid": 881
+    },
+    {
+        "bookingid": 493
+    },
+    {
+        "bookingid": 732
+    },
+    {
+        "bookingid": 509
+    },
+    {
+        "bookingid": 62
+    },
+    {
+        "bookingid": 772
+    },
+    {
+        "bookingid": 825
+    },
+    {
+        "bookingid": 273
+    },
+    {
+        "bookingid": 65
+    },
+    {
+        "bookingid": 265
+    },
+    {
+        "bookingid": 249
+    },
+    {
+        "bookingid": 740
+    },
+    {
+        "bookingid": 294
+    },
+    {
+        "bookingid": 667
+    },
+    {
+        "bookingid": 335
+    },
+    {
+        "bookingid": 571
+    },
+    {
+        "bookingid": 784
+    },
+    {
+        "bookingid": 404
+    },
+    {
+        "bookingid": 169
+    },
+    {
+        "bookingid": 713
+    },
+    {
+        "bookingid": 930
+    },
+    {
+        "bookingid": 389
+    },
+    {
+        "bookingid": 647
+    },
+    {
+        "bookingid": 355
+    },
+    {
+        "bookingid": 239
+    },
+    {
+        "bookingid": 155
+    },
+    {
+        "bookingid": 138
+    },
+    {
+        "bookingid": 233
+    },
+    {
+        "bookingid": 101
+    },
+    {
+        "bookingid": 340
+    },
+    {
+        "bookingid": 679
+    },
+    {
+        "bookingid": 566
+    },
+    {
+        "bookingid": 272
+    },
+    {
+        "bookingid": 257
+    },
+    {
+        "bookingid": 525
+    },
+    {
+        "bookingid": 708
+    },
+    {
+        "bookingid": 352
+    },
+    {
+        "bookingid": 339
+    },
+    {
+        "bookingid": 70
+    },
+    {
+        "bookingid": 66
+    },
+    {
+        "bookingid": 716
+    },
+    {
+        "bookingid": 691
+    },
+    {
+        "bookingid": 856
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 654
+    },
+    {
+        "bookingid": 262
+    },
+    {
+        "bookingid": 346
+    },
+    {
+        "bookingid": 836
+    },
+    {
+        "bookingid": 495
+    },
+    {
+        "bookingid": 479
+    },
+    {
+        "bookingid": 38
+    },
+    {
+        "bookingid": 459
+    },
+    {
+        "bookingid": 77
+    },
+    {
+        "bookingid": 876
+    },
+    {
+        "bookingid": 288
+    },
+    {
+        "bookingid": 807
+    },
+    {
+        "bookingid": 866
+    },
+    {
+        "bookingid": 576
+    },
+    {
+        "bookingid": 390
+    },
+    {
+        "bookingid": 570
+    },
+    {
+        "bookingid": 295
+    },
+    {
+        "bookingid": 107
+    },
+    {
+        "bookingid": 693
+    },
+    {
+        "bookingid": 783
+    },
+    {
+        "bookingid": 136
+    },
+    {
+        "bookingid": 899
+    },
+    {
+        "bookingid": 228
+    },
+    {
+        "bookingid": 919
+    },
+    {
+        "bookingid": 189
+    },
+    {
+        "bookingid": 218
+    },
+    {
+        "bookingid": 454
+    },
+    {
+        "bookingid": 225
+    },
+    {
+        "bookingid": 520
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 399
+    },
+    {
+        "bookingid": 680
+    },
+    {
+        "bookingid": 446
+    },
+    {
+        "bookingid": 487
+    },
+    {
+        "bookingid": 116
+    },
+    {
+        "bookingid": 637
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 104
+    },
+    {
+        "bookingid": 46
+    },
+    {
+        "bookingid": 879
+    },
+    {
+        "bookingid": 575
+    },
+    {
+        "bookingid": 413
+    },
+    {
+        "bookingid": 577
+    },
+    {
+        "bookingid": 790
+    },
+    {
+        "bookingid": 915
+    },
+    {
+        "bookingid": 848
+    },
+    {
+        "bookingid": 893
+    },
+    {
+        "bookingid": 791
+    },
+    {
+        "bookingid": 259
+    },
+    {
+        "bookingid": 208
+    },
+    {
+        "bookingid": 524
+    },
+    {
+        "bookingid": 602
+    },
+    {
+        "bookingid": 217
+    },
+    {
+        "bookingid": 37
+    },
+    {
+        "bookingid": 56
+    },
+    {
+        "bookingid": 842
+    },
+    {
+        "bookingid": 285
+    },
+    {
+        "bookingid": 147
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 47
+    },
+    {
+        "bookingid": 562
+    },
+    {
+        "bookingid": 875
+    },
+    {
+        "bookingid": 741
+    },
+    {
+        "bookingid": 839
+    },
+    {
+        "bookingid": 780
+    },
+    {
+        "bookingid": 412
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 795
+    },
+    {
+        "bookingid": 341
+    },
+    {
+        "bookingid": 91
+    },
+    {
+        "bookingid": 714
+    },
+    {
+        "bookingid": 135
+    },
+    {
+        "bookingid": 410
+    },
+    {
+        "bookingid": 323
+    },
+    {
+        "bookingid": 170
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 851
+    },
+    {
+        "bookingid": 238
+    },
+    {
+        "bookingid": 870
+    },
+    {
+        "bookingid": 92
+    },
+    {
+        "bookingid": 242
+    },
+    {
+        "bookingid": 670
+    },
+    {
+        "bookingid": 453
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 750
+    },
+    {
+        "bookingid": 63
+    },
+    {
+        "bookingid": 655
+    },
+    {
+        "bookingid": 914
+    },
+    {
+        "bookingid": 609
+    },
+    {
+        "bookingid": 675
+    },
+    {
+        "bookingid": 114
+    },
+    {
+        "bookingid": 304
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 581
+    },
+    {
+        "bookingid": 607
+    },
+    {
+        "bookingid": 916
+    },
+    {
+        "bookingid": 197
+    },
+    {
+        "bookingid": 416
+    },
+    {
+        "bookingid": 587
+    },
+    {
+        "bookingid": 862
+    },
+    {
+        "bookingid": 244
+    },
+    {
+        "bookingid": 368
+    },
+    {
+        "bookingid": 363
+    },
+    {
+        "bookingid": 551
+    },
+    {
+        "bookingid": 704
+    },
+    {
+        "bookingid": 286
+    },
+    {
+        "bookingid": 620
+    },
+    {
+        "bookingid": 144
+    },
+    {
+        "bookingid": 261
+    },
+    {
+        "bookingid": 523
+    },
+    {
+        "bookingid": 326
+    },
+    {
+        "bookingid": 377
+    },
+    {
+        "bookingid": 82
+    },
+    {
+        "bookingid": 891
+    },
+    {
+        "bookingid": 553
+    },
+    {
+        "bookingid": 439
+    },
+    {
+        "bookingid": 885
+    },
+    {
+        "bookingid": 658
+    },
+    {
+        "bookingid": 810
+    },
+    {
+        "bookingid": 79
+    },
+    {
+        "bookingid": 584
+    },
+    {
+        "bookingid": 699
+    },
+    {
+        "bookingid": 697
+    },
+    {
+        "bookingid": 429
+    },
+    {
+        "bookingid": 634
+    },
+    {
+        "bookingid": 540
+    },
+    {
+        "bookingid": 315
+    },
+    {
+        "bookingid": 36
+    },
+    {
+        "bookingid": 321
+    },
+    {
+        "bookingid": 490
+    },
+    {
+        "bookingid": 496
+    },
+    {
+        "bookingid": 112
+    },
+    {
+        "bookingid": 183
+    },
+    {
+        "bookingid": 386
+    },
+    {
+        "bookingid": 738
+    },
+    {
+        "bookingid": 299
+    },
+    {
+        "bookingid": 612
+    },
+    {
+        "bookingid": 711
+    },
+    {
+        "bookingid": 235
+    },
+    {
+        "bookingid": 177
+    },
+    {
+        "bookingid": 284
+    },
+    {
+        "bookingid": 757
+    },
+    {
+        "bookingid": 141
+    },
+    {
+        "bookingid": 874
+    },
+    {
+        "bookingid": 731
+    },
+    {
+        "bookingid": 527
+    },
+    {
+        "bookingid": 652
+    },
+    {
+        "bookingid": 798
+    },
+    {
+        "bookingid": 661
+    },
+    {
+        "bookingid": 33
+    },
+    {
+        "bookingid": 216
+    },
+    {
+        "bookingid": 337
+    },
+    {
+        "bookingid": 518
+    },
+    {
+        "bookingid": 73
+    },
+    {
+        "bookingid": 350
+    },
+    {
+        "bookingid": 332
+    },
+    {
+        "bookingid": 131
+    },
+    {
+        "bookingid": 78
+    },
+    {
+        "bookingid": 617
+    },
+    {
+        "bookingid": 118
+    },
+    {
+        "bookingid": 398
+    },
+    {
+        "bookingid": 721
+    },
+    {
+        "bookingid": 705
+    },
+    {
+        "bookingid": 168
+    },
+    {
+        "bookingid": 886
+    },
+    {
+        "bookingid": 423
+    },
+    {
+        "bookingid": 561
+    },
+    {
+        "bookingid": 840
+    },
+    {
+        "bookingid": 161
+    },
+    {
+        "bookingid": 311
+    },
+    {
+        "bookingid": 532
+    },
+    {
+        "bookingid": 312
+    },
+    {
+        "bookingid": 764
+    },
+    {
+        "bookingid": 724
+    },
+    {
+        "bookingid": 628
+    },
+    {
+        "bookingid": 755
+    },
+    {
+        "bookingid": 828
+    },
+    {
+        "bookingid": 907
+    },
+    {
+        "bookingid": 253
+    },
+    {
+        "bookingid": 516
+    },
+    {
+        "bookingid": 427
+    },
+    {
+        "bookingid": 865
+    },
+    {
+        "bookingid": 210
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 692
+    },
+    {
+        "bookingid": 61
+    },
+    {
+        "bookingid": 400
+    },
+    {
+        "bookingid": 859
+    },
+    {
+        "bookingid": 548
+    },
+    {
+        "bookingid": 198
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 845
+    },
+    {
+        "bookingid": 452
+    },
+    {
+        "bookingid": 148
+    },
+    {
+        "bookingid": 555
+    },
+    {
+        "bookingid": 765
+    },
+    {
+        "bookingid": 769
+    },
+    {
+        "bookingid": 433
+    },
+    {
+        "bookingid": 132
+    },
+    {
+        "bookingid": 149
+    },
+    {
+        "bookingid": 156
+    },
+    {
+        "bookingid": 651
+    },
+    {
+        "bookingid": 683
+    },
+    {
+        "bookingid": 614
+    },
+    {
+        "bookingid": 592
+    },
+    {
+        "bookingid": 126
+    },
+    {
+        "bookingid": 226
+    },
+    {
+        "bookingid": 305
+    },
+    {
+        "bookingid": 59
+    },
+    {
+        "bookingid": 90
+    },
+    {
+        "bookingid": 167
+    },
+    {
+        "bookingid": 162
+    },
+    {
+        "bookingid": 486
+    },
+    {
+        "bookingid": 313
+    },
+    {
+        "bookingid": 120
+    },
+    {
+        "bookingid": 925
+    },
+    {
+        "bookingid": 263
+    },
+    {
+        "bookingid": 760
+    },
+    {
+        "bookingid": 622
+    },
+    {
+        "bookingid": 887
+    },
+    {
+        "bookingid": 133
+    },
+    {
+        "bookingid": 882
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 420
+    },
+    {
+        "bookingid": 152
+    },
+    {
+        "bookingid": 417
+    },
+    {
+        "bookingid": 30
+    },
+    {
+        "bookingid": 835
+    },
+    {
+        "bookingid": 97
+    },
+    {
+        "bookingid": 302
+    },
+    {
+        "bookingid": 710
+    },
+    {
+        "bookingid": 354
+    },
+    {
+        "bookingid": 664
+    },
+    {
+        "bookingid": 816
+    },
+    {
+        "bookingid": 625
+    },
+    {
+        "bookingid": 507
+    },
+    {
+        "bookingid": 297
+    },
+    {
+        "bookingid": 729
+    },
+    {
+        "bookingid": 541
+    },
+    {
+        "bookingid": 558
+    },
+    {
+        "bookingid": 237
+    },
+    {
+        "bookingid": 926
+    },
+    {
+        "bookingid": 854
+    },
+    {
+        "bookingid": 227
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 734
+    },
+    {
+        "bookingid": 827
+    },
+    {
+        "bookingid": 922
+    },
+    {
+        "bookingid": 752
+    },
+    {
+        "bookingid": 277
+    },
+    {
+        "bookingid": 582
+    },
+    {
+        "bookingid": 867
+    },
+    {
+        "bookingid": 474
+    },
+    {
+        "bookingid": 106
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 100
+    },
+    {
+        "bookingid": 579
+    },
+    {
+        "bookingid": 775
+    },
+    {
+        "bookingid": 819
+    },
+    {
+        "bookingid": 703
+    },
+    {
+        "bookingid": 897
+    },
+    {
+        "bookingid": 789
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 358
+    },
+    {
+        "bookingid": 630
+    },
+    {
+        "bookingid": 818
+    },
+    {
+        "bookingid": 794
+    },
+    {
+        "bookingid": 180
+    },
+    {
+        "bookingid": 793
+    },
+    {
+        "bookingid": 166
+    },
+    {
+        "bookingid": 361
+    },
+    {
+        "bookingid": 124
+    },
+    {
+        "bookingid": 379
+    },
+    {
+        "bookingid": 526
+    },
+    {
+        "bookingid": 24
+    },
+    {
+        "bookingid": 594
+    },
+    {
+        "bookingid": 762
+    },
+    {
+        "bookingid": 719
+    },
+    {
+        "bookingid": 356
+    },
+    {
+        "bookingid": 75
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 564
+    },
+    {
+        "bookingid": 502
+    },
+    {
+        "bookingid": 98
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 737
+    },
+    {
+        "bookingid": 76
+    },
+    {
+        "bookingid": 475
+    },
+    {
+        "bookingid": 669
+    },
+    {
+        "bookingid": 469
+    },
+    {
+        "bookingid": 849
+    },
+    {
+        "bookingid": 557
+    },
+    {
+        "bookingid": 770
+    },
+    {
+        "bookingid": 191
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 415
+    },
+    {
+        "bookingid": 852
+    },
+    {
+        "bookingid": 80
+    },
+    {
+        "bookingid": 318
+    },
+    {
+        "bookingid": 733
+    },
+    {
+        "bookingid": 600
+    }
+]
+]]></system-out>
+    <system-err><![CDATA[34356 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating booking and verifying booking created.
+--------------------------------------------------------------------------
+34359 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <500>.
+34366 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test003
+-------------------------------------------------------------------
+34367 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+]]></system-err>
+  </testcase>
+  <testcase name="test004" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="0.496">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.restful.booker.serenity.crudtest.CRUDTest.test004(CRUDTest.java:73)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	bookingId=0
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[36754 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Getting All IDs.
+--------------------------------------------------------------------------
+36755 [main] ERROR net.serenitybdd.core.Serenity - 
+36759 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test004
+-------------------------------------------------------------------
+36759 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+]]></system-err>
+  </testcase>
+  <testcase name="test005" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="1.002">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.restful.booker.serenity.crudtest.CRUDTest.test005(CRUDTest.java:87)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	bookingId=0
+Multiparts:		<none>
+Headers:		Cookie=token=null
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "firstname": "Gauran443-updated",
+    "lastname": "Pancha",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-06",
+        "checkout": "2024-01-20"
+    },
+    "additionalneeds": "Breakfast",
+    "bookingid": 0
+}
+HTTP/1.1 403 Forbidden
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Date: Mon, 05 Jun 2023 00:54:01 GMT
+Via: 1.1 vegur
+
+Forbidden
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	bookingId=0
+Multiparts:		<none>
+Headers:		Cookie=token=null
+				Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Mon, 05 Jun 2023 00:54:01 GMT
+Via: 1.1 vegur
+
+Not Found
+]]></system-out>
+    <system-err><![CDATA[37259 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Getting Single ID.
+---------------------------------------------------------------------
+37260 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Get Single Booking Id using id: 0
+37260 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <404>.
+37268 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test005
+-------------------------------------------------------------------
+37268 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+]]></system-err>
+  </testcase>
+  <testcase name="test006" classname="com.restful.booker.serenity.crudtest.CRUDTest" time="0.083">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.restful.booker.serenity.crudtest.CRUDTest.test006(CRUDTest.java:99)
+</error>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/%7BbookingId%7D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	bookingid=0
+Multiparts:		<none>
+Headers:		Cookie=token=null
+				Accept=*/*
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[38288 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Updating Single ID.
+--------------------------------------------------------------------------
+38288 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <404>.
+38291 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test006
+-------------------------------------------------------------------
+38292 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
+]]></system-err>
+  </testcase>
+</testsuite>
